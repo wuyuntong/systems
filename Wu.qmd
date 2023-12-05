@@ -150,3 +150,7 @@ new |> left_join(facsys, by = "Star_key") |>
   geom_bar(position = "dodge", na.rm = TRUE) 
 ```
 
+## question 22
+```{r}
+unique(facsys$Substructure) |> knitr::kable()
+```
