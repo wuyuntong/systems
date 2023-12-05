@@ -56,7 +56,8 @@ stars <- sys[index,]$star
 
 extreme <- c("min_dist", "max_dis", "min_temp", "max_temp", "min_mass", "max_mass", "min_rad", "max_rad", "min_lum", "max_lum")
 
-data.frame(extreme, names) |> knitr::kable()
+m <- data.frame(extreme, names)
+knitr::kable(m)
 
 ```
 
