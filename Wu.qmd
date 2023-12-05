@@ -113,14 +113,20 @@ sys |> left_join(facsys, by = "Star_key") |>
 ## question 16
 ```{r}
 new <- sys |>
-  separate(`STELLAR TYPE`, into = c("class", "temp", "lum"), sep = "\\|", remove = TRUE)
+  separate(`STELLAR TYPE`, into = c("class", "mag", "lum"), sep = "\\|", remove = TRUE)
 ```
 
 ## question 17
 
 ```{r}
-new |> ggplot(aes(x = temp)) +
-  geom_bar()
+new |> ggplot(aes(x = `EQUIVALENT TEMPERATURE`)) +
+  geom_histogram(na.rm = TRUE) +
+  stat_bin(bins = 20)
 ```
 
-
+## question 17
+```{r}
+new |> ggplot(aes(x = `EQUIVALENT TEMPERATURE`)) +
+  geom_histogram(na.rm = TRUE) + 
+  facet_wrap(~mag)
+```
