@@ -5,3 +5,24 @@ format: html
 editor: visual
 ---
 GitHub link: https://github.com/wuyuntong/systems
+
+```{r warning=FALSE}
+here::i_am("systems.Rproj")
+library(here)
+library(vroom)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(knitr)
+theme_set(theme_bw())
+```
+```{r}
+sys <- vroom(here("data", "all-systems.csv"))
+```
+
+```{r}
+sys <- sys |> mutate(`Star Mass` = as.numeric(gsub(",", ".", sys$`Star Mass`)),
+                     `RELATIVE RADIUS` = as.numeric(gsub(",", ".", `RELATIVE RADIUS`)),
+                     `Star Luminosity` = as.numeric(gsub(",", ".",  `Star Luminosity`)))
+```
+
