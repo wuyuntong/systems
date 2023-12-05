@@ -82,4 +82,11 @@ facsys |> group_by(Faction_key) |>
   ggplot(aes(y = `Faction Name`, x = n)) +
   geom_col()
 ```
-
+## question 12
+```{r}
+sys |> left_join(facsys, by = "Star_key") |>
+  left_join(fac, by = "Faction_key") |>
+   subset(!(Faction_key %in% c("A", "I", "U" ))) |>
+   ggplot(aes(y = `Faction Name`, x = `DISTANCE`))+
+  geom_boxplot()
+```
