@@ -1,0 +1,146 @@
+"Faction_key"	"Faction Name"	"initial year"	"WHEN ENDED"
+"A"	"Abandoned"	NA	NA
+"AB"	"Azami Brotherhood"	"3071"	"3081"
+"AC"	"Azami Caliphate"	"2450"	"2516"
+"AE"	"Amaris Empire"	"2767"	"2779"
+"AG"	"Alliance of Galedon"	"2302"	"2319"
+"ALC"	"Arc-Royal Liberty Coalition"	"3151"	NA
+"AML"	"Alyina Mercantile League"	"3151"	NA
+"AP"	"Axumite Providence"	"2245"	NA
+"AuC"	"Aurigan Coalition"	"2910"	NA
+"AuD"	"Aurigan Directorate"	"3022"	"3025"
+"C"	"Clans"	"2807"	NA
+"CBR"	"Clan Burrock"	"2807"	"3059"
+"CBS"	"Clan Blood Spirit"	"2807"	"3085"
+"CC"	"Capellan Confederation"	"2367"	NA
+"CCC"	"Clan Cloud Cobra"	"2807"	NA
+"CCom"	"Capellan Commonality"	"2310"	"2366"
+"CCY"	"Clan Coyote"	"2807"	NA
+"CDP"	"Calderon Protectorate"	"3066"	NA
+"CDS"	"Clan Diamond Shark"	"2895"	"3100"
+"CF"	"Circinus Federation"	"2785"	"3081"
+"CFM"	"Clan Fire Mandrill"	"2807"	"3073"
+"CGB"	"Clan Ghost Bear"	"2807"	"3060"
+"CGS"	"Clan Goliath Scorpion"	"2807"	"3080"
+"CH"	"Capellan Hegemony"	"2270"	"2310"
+"CHH"	"Clan Hell's Horses"	"2807"	NA
+"CI"	"Chainelane Isles"	NA	NA
+"CIH"	"Clan Ice Hellion"	"2807"	"3074"
+"CJF"	"Clan Jade Falcon"	"2807"	NA
+"CM"	"Chaos March"	"3058"	"3069"
+"CMN"	"Clan Mongoose"	"2807"	"2868"
+"CNC"	"Clan Nova Cat"	"2807"	"3143"
+"CoF"	"Coalition Forces"	"3073"	"3081"
+"CS"	"ComStar"	"2788"	NA
+"CSA"	"Clan Star Adder"	"2807"	NA
+"CSF"	"Clan Sea Fox"	"2807"	NA
+"CSJ"	"Clan Smoke Jaguar"	"2807"	"3060"
+"CSL"	"Clan Stone Lion"	"3075"	NA
+"CSR"	"Clan Snow Raven"	"2807"	"3083"
+"CSV"	"Clan Steel Viper"	"2807"	"3075"
+"CTF"	"Chesterton Trade Federation"	"2220"	"2357"
+"CWF"	"Clan Wolf"	"2807"	"3143"
+"CWM"	"Clan Widowmaker"	"2807"	"2834"
+"CWV"	"Clan Wolverine"	"2807"	"2823"
+"CWX"	"Clan Wolf-in-Exile"	"3057"	NA
+"D"	"Disputed"	NA	NA
+"DA"	"Duchy of Andurien"	"3030"	NA
+"DC"	"Draconis Combine"	"2319"	NA
+"DGM"	"Duchy of Graham-Marik"	"3079"	"3082"
+"DL"	"Duchy of Liao"	"2315"	"2366"
+"DO"	"Duchy of Oriente"	"3079"	"3086"
+"DoO"	"Duchy of Orloff"	"3079"	"3086"
+"DS"	"Duchy of Small"	"3058"	"3066"
+"DT"	"Duchy of Tamarind"	"3071"	"3078"
+"DTA"	"Duchy of Tamarind-Abbey"	"3078"	"3139"
+"EF"	"Elysian Fields"	NA	"3049"
+"EI"	"Escorpión Imperio"	"3080"	"3141"
+"FCF"	"Federated Commonwealth (FS)"	"3028"	"3057"
+"FCL"	"Federated Commonwealth (LC)"	"3028"	"3057"
+"FCo"	"Ferris Collective"	"3087"	NA
+"FFR"	"Finmark Free Republic"	"2779"	"2792"
+"FO"	"Federation of Oriente"	"2241"	"2271"
+"FoS"	"Federation of Skye"	"2299"	"2341"
+"FR"	"Free Rasalhague Republic"	"3034"	"3103"
+"FrR"	"Fronc Reaches"	"3066"	NA
+"FS"	"Federated Suns"	"2317"	NA
+"FvC"	"Filtvelt Coalition"	"3072"	NA
+"FWL"	"Free Worlds League"	"2271"	NA
+"GBD"	"Ghost Bear Dominion"	"3060"	"3103"
+"GL"	"Galatean League"	"3144"	NA
+"GV"	"Greater Valkyrate"	"3028"	"3049"
+"HL"	"Hanseatic League"	"2891"	"3141"
+"I"	"Independent"	NA	NA
+"IE"	"Interstellar Expeditions"	"2974"	NA
+"IP"	"Illyrian Palatinate"	"2350"	"3063"
+"JF"	"JàrnFòlk"	"2500s"	NA
+"KP"	"Kittery Prefecture"	"3073"	"3080"
+"LA"	"Lyran Alliance"	"3057"	"3084"
+"LC"	"Lyran Commonwealth"	"2340"	NA
+"LL"	"Lothian League"	"2691"	NA
+"LR"	"Liao Republic"	"2189"	"2315"
+"MA"	"Mosiro Archipelago"	"3079"	"3081"
+"MaC"	"Malthus Confederation"	"3051"	NA
+"MarA"	"Marlette Association"	"2278"	"2324"
+"MC"	"Malagrotta Cooperative"	"3073"	"3079"
+"MCM"	"Marik Commonwealth"	"3079"	"3082"
+"MH"	"Marian Hegemony"	"2920"	NA
+"MOC"	"Magistracy of Canopus"	"2530"	NA
+"MR"	"Marik Republic"	"2238"	"2271"
+"MSC"	"Marik-Stewart Commonwealth"	"3082"	"3139"
+"MuC"	"Muskegon Coalition"	"2163"	"2317"
+"MV"	"Morgraine's Valkyrate"	"3021"	"3028"
+"NC"	"Nueva Castile"	"2392"	"3080"
+"NCR"	"New Colony Region"	"3057"	"3066"
+"NDC"	"New Delphi Compact"	"2602"	NA
+"NOC"	"New Oberon Confederation"	"3086"	NA
+"OA"	"Outworlds Alliance"	"2413"	"3083"
+"OC"	"Oberon Confederation"	"2775"	"3049"
+"OMA"	"Ozawa Mercantile Association"	NA	"2303"
+"OP"	"Oriente Protectorate"	"3086"	"3139"
+"OZP"	"Ohrenson-Zion Province"	"3079"	"3081"
+"PD"	"Protectorate of Donegal"	"2313"	"2341"
+"PG"	"Principality of Gibson"	"3079"	NA
+"PoR"	"Principality of Rasalhague"	"2260"	"2510"
+"PR"	"Principality of Regulus"	"3079"	"3086"
+"RA"	"Raven Alliance"	"3083"	NA
+"RB"	"Republic of the Barrens"	"3087"	NA
+"RC"	"Rim Collection"	"3048"	"3148"
+"RCM"	"Rim Commonality"	"3075"	"3139"
+"RD"	"Rasalhague Dominion"	"3103"	NA
+"RF"	"Regulan Fiefs"	"3086"	"3148"
+"RFS"	"Regulan Free States"	"3079"	"3086"
+"RP"	"Regulan Principality"	"2243"	"2271"
+"RS"	"Republic of the Sphere"	"3081"	NA
+"RT"	"Rim Territories"	"3087"	NA
+"RU"	"Ragnarök Union"	"3084"	NA
+"RW"	"Rim Worlds Republic"	"2250"	"2769"
+"SA"	"Senate Alliance"	"3135"	"3142"
+"SC"	"Stewart Confederation"	"2259"	"2271"
+"SCo"	"Sian Commonwealth"	"2260"	"2366"
+"SE"	"Scorpion Empire"	"3141"	NA
+"SHC"	"Silver Hawks Coalition"	"3079"	NA
+"SIC"	"St. Ives Compact"	"3029"	"3063"
+"SIMA"	"St. Ives Mercantile Association"	"2245"	"2366"
+"SKC"	"Styk Commonality"	"3058"	"3067"
+"SLIE"	"Star League-in-Exile"	"2786"	"2801"
+"SS"	"Sarna Supremacy"	"2175"	"2366"
+"ST"	"Saiph Triumvirate"	"3057"	"3068"
+"TA"	"Terran Alliance"	"2086"	"2315"
+"TamP"	"Tamar Pact"	"2235"	"2341"
+"TC"	"Taurian Concordat"	"2335"	NA
+"TCC"	"Terracap Confederation"	"3058"	"3067"
+"TD"	"Tortuga Dominions"	"2785"	NA
+"TFR"	"Tikonov Free Republic"	"3029"	"3031"
+"TGU"	"Tikonov Grand Union"	"2177"	"2366"
+"TH"	"Terran Hegemony"	"2316"	"2767"
+"THa"	"The Havens"	"3089"	NA
+"THW"	"Taurian Homeworlds"	"2253"	"2235"
+"TiC"	"Timbuktu Collective"	"3148"	NA
+"TP"	"The Protectorate"	"3079"	NA
+"TR"	"The Republic Remnant"	"3135"	NA
+"U"	"Undiscovered"	NA	NA
+"UHC"	"United Hindu Collective"	"2240"	"2540"
+"VM"	"Vesper Marches"	"3051"	NA
+"WB"	"Word of Blake"	"3052"	NA
+"WE"	"Wolf Empire"	"3143"	NA
