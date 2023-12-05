@@ -1,0 +1,6 @@
+---
+title: "lab assignment"
+author: "Yuntong Wu"
+format: html
+editor: visual
+---
