@@ -74,4 +74,12 @@ facsys |> summarise(n_A = sum(facsys$Faction_key == "A"), n_I = sum(facsys$Facti
 ```{r}
 length(setdiff(fac$Faction_key, facsys$Faction_key))
 ```
+## question 11
+```{r}
+facsys |> group_by(Faction_key) |>
+  summarise(n = n()) |>
+  left_join(fac, by = "Faction_key") |>
+  ggplot(aes(y = `Faction Name`, x = n)) +
+  geom_col()
 ```
+
