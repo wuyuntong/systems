@@ -102,3 +102,12 @@ sys |> left_join(facsys, by = "Star_key") |>
   knitr::kable()
 ```
 
+## question 14
+```{r}
+sys |> left_join(facsys, by = "Star_key") |>
+  left_join(fac, by = "Faction_key") |>
+  mutate(control = (`initial year` <= 2821 & `WHEN ENDED` >= 2821)) |>
+  group_by(`Faction Name`) |>
+  summarise(active = sum(control) >= 1)
+```
+
