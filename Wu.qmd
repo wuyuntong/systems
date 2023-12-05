@@ -70,3 +70,8 @@ facsys <- vroom(here("data", "Factionsystem.csv"))
 facsys |> summarise(n_A = sum(facsys$Faction_key == "A"), n_I = sum(facsys$Faction_key == "I"), n_U = sum(facsys$Faction_key == "U"))
 ```
 
+## question 10
+```{r}
+length(setdiff(fac$Faction_key, facsys$Faction_key))
+```
+```
