@@ -110,4 +110,8 @@ sys |> left_join(facsys, by = "Star_key") |>
   group_by(`Faction Name`) |>
   summarise(active = sum(control) >= 1)
 ```
-
+## question 16
+```{r}
+sys |>
+  separate(`STELLAR TYPE`, into = c("type1", "type2", "type3"), sep = "\\|", remove = TRUE)
+```
