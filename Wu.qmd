@@ -142,3 +142,11 @@ new |> ggplot(aes(x = `RELATIVE RADIUS`)) +
   facet_wrap(~class)
 ```
 
+## question 21
+```{r}
+new |> left_join(facsys, by = "Star_key") |>
+  na.omit() |>
+  ggplot(aes(x = class, fill = Faction_key)) +
+  geom_bar(position = "dodge", na.rm = TRUE) 
+```
+
