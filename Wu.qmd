@@ -124,9 +124,21 @@ new |> ggplot(aes(x = `EQUIVALENT TEMPERATURE`)) +
   stat_bin(bins = 20)
 ```
 
-## question 17
+## question 18
 ```{r}
 new |> ggplot(aes(x = `EQUIVALENT TEMPERATURE`)) +
   geom_histogram(na.rm = TRUE) + 
   facet_wrap(~mag)
 ```
+## question 19
+```{r}
+
+```
+
+## question 20
+```{r}
+new |> ggplot(aes(x = `RELATIVE RADIUS`)) +
+  geom_histogram()+
+  facet_wrap(~class)
+```
+
