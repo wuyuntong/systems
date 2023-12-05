@@ -113,5 +113,5 @@ sys |> left_join(facsys, by = "Star_key") |>
 ## question 16
 ```{r}
 sys |>
-  separate(`STELLAR TYPE`, into = c("type1", "type2", "type3"), sep = "\\|", remove = TRUE)
+  separate(`STELLAR TYPE`, into = c("class", "temp", "lum"), sep = "\\|", remove = TRUE)
 ```
