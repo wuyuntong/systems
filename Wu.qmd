@@ -34,4 +34,9 @@ colSums(is.na(sys)) > 0
 ```{r}
 sys |> summarise(n_obs = nrow(sys), n_var = ncol(sys), n_missing_star_mass = sum(is.na(sys$`Star Mass`)), n_missing_star_luminosity = sum(is.na(sys$`Star Luminosity`)), n_obs_missing = sum(rowSums(is.na(sys)) > 0)) |> knitr::kable()
 ```
+## Question 5
+```{r}
+sys |> ggplot(aes(x = `Star Mass`, y = `Star Luminosity`)) +
+  geom_point(na.rm = TRUE)
+```
 
