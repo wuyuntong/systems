@@ -39,4 +39,24 @@ sys |> summarise(n_obs = nrow(sys), n_var = ncol(sys), n_missing_star_mass = sum
 sys |> ggplot(aes(x = `Star Mass`, y = `Star Luminosity`)) +
   geom_point(na.rm = TRUE)
 ```
+## Question 6
+```{r}
+index = c(which.min(sys$DISTANCE),
+          which.max(sys$DISTANCE),
+          which.min(sys$`EQUIVALENT TEMPERATURE`),
+          which.max(sys$`EQUIVALENT TEMPERATURE`),
+          which.min(sys$`Star Mass`),
+          which.max(sys$`Star Mass`),
+          which.min(sys$`RELATIVE RADIUS`),
+          which.max(sys$`RELATIVE RADIUS`),
+          which.min(sys$`Star Luminosity`),
+          which.max(sys$`Star Luminosity`))
+
+stars <- sys[index,]$star
+
+extreme <- c("min_dist", "max_dis", "min_temp", "max_temp", "min_mass", "max_mass", "min_rad", "max_rad", "min_lum", "max_lum")
+
+data.frame(extreme, names) |> knitr::kable()
+
+```
 
