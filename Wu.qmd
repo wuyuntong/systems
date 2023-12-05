@@ -112,6 +112,15 @@ sys |> left_join(facsys, by = "Star_key") |>
 ```
 ## question 16
 ```{r}
-sys |>
+new <- sys |>
   separate(`STELLAR TYPE`, into = c("class", "temp", "lum"), sep = "\\|", remove = TRUE)
 ```
+
+## question 17
+
+```{r}
+new |> ggplot(aes(x = temp)) +
+  geom_bar() +
+  facet_wrap(~class)
+```
+
